@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Pendaftaran</title>
+</head>
+<body>
+	<div class="wrapper">
+	<div class="title">
+		Registrasi Mahasiswa
+	</div>
+
+<form>
+	<fieldset>
+		<legend>Masukkan Data</legend>
+		Nim : <br><input type="number" name="nim" placeholder="Masukkan NIM" required><br>
+		<br>
+
+		Nama : <br><input type="text" name="nama" placeholder="Masukkan Nama" required><br>
+		<br>
+
+		Jurusan : <br>
+		<select>
+			<option value="">Select</option>
+			<option value="Teknik Informatika">Teknik Informatika</option>
+			<option value="Teknik Elektro">Teknik Elektro</option>
+			<option value="Teknik Sipil">Teknik Sipil</option>
+			<option value="Teknik Mesin">Teknik Mesin</option>
+		</select>
+		<br><br>
+
+		Tempat Tanggal Lahir :
+		<input type="date" name="tanggal" required><br>
+		<input type="text" name="tempat" placeholder="Masukkan Tempat Lahir" required><br>
+		<br>
+
+		Jenis Kelamin : <br>
+		<input type="radio" name="jk" value="Laki">Laki-Laki
+		<input type="radio" name="jk" value="perempuan">Perempuan
+		<br><br>
+
+		Alamat : <br>
+		<textarea name="alamat" placeholder="Masukkan Alamat" width="100" height="20" required></textarea>
+		<br><br>
+
+		Agama : <br>
+		<select>
+			<option value="islam">Islam</option>
+			<option value="kristen">Kristen</option>
+			<option value="hindu">Hindu</option>
+			<option value="budha">Budha</option>
+		</select>
+		<br><br>
+
+		No Handphone :<br>
+		<input type="number" name="no hp" placeholder="Masukkan No.Hp" required><br>
+		<br>
+
+		Email : <br>
+		<input type="text" name="email" placeholder="Masukkan Email" required><br>
+		<br>
+
+		<input type="submit" name="simpan" value="Simpan">
+		<input type="reset" name="reset" value="Reset">
+
+	</fieldset>
+</form>
+<body background="img/3.jpg"></body>
+</body>
+</html>
